@@ -10,6 +10,10 @@ Requires `gzip` to be on your machine.
 
 # Usage:
 
+Initialise a git repo in the same directory as your project's `als` file.
+
+Open terminal inside your project folder...
+
 Commit a project
 
 ```
