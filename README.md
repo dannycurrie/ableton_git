@@ -27,7 +27,7 @@ Checkout a project
 ```
 
 # Todo
-
+- [ ] Error handling
 - [ ] branching
 - [ ] other Git commands: `log`, `rebase`
 - [ ] you tell me ;)
