@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 #
 # functions required to use Git with Ableton projects
 
