@@ -1,0 +1,11 @@
+{
+  "name": "ableton_git",
+  "version": "1.0.0",
+  "main": "ableton_git.sh",
+  "repository": "https://github.com/dannycurrie/ableton_git.git",
+  "author": "dannycurrie <danny.currie42@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gzip": "^0.1.0"
+  }
+}
