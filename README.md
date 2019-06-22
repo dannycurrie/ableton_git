@@ -6,8 +6,6 @@ Commits your `als` file to git by converting to/from `xml`.
 
 DISCLAIMER: only intended for solo use currently; doesn't take advantage of collborative features of Git (`branching` etc.)
 
-Requires `gzip` to be on your machine.
-
 # Usage:
 
 Initialise a git repo in the same directory as your project's `als` file.
@@ -27,7 +25,7 @@ Checkout a project
 ```
 
 # Todo
-- [ ] Error handling
+- [x] Error handling
 - [ ] branching
 - [ ] other Git commands: `log`, `rebase`
 - [ ] you tell me ;)
