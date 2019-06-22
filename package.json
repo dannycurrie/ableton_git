@@ -2,6 +2,10 @@
   "name": "ableton_git",
   "version": "1.0.0",
   "main": "ableton_git.sh",
+  "scripts": {
+    "test": "./test/ableton_git.test.sh",
+    "deploy": "cp ableton_git.sh ~/../../usr/local/bin/ableton_git.sh"
+  },
   "repository": "https://github.com/dannycurrie/ableton_git.git",
   "author": "dannycurrie <danny.currie42@gmail.com>",
   "license": "MIT",

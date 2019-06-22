@@ -1,8 +1,10 @@
-#!/bin/bash
+#!/bin/bash -x
 
 # create folder and .als file
-mkdir "./test/"
-cd test/
+cd test
+TEST_DIR="test-dir"
+mkdir "$TEST_DIR"
+cd $TEST_DIR
 cp ../test_project.als test.als
 
 # init git repo
@@ -31,6 +33,6 @@ fi
 # delete folder and repo
 echo "test successful - removing test data"
 cd ..
-rm -rf test
+rm -rf $TEST_DIR
 
 exit 0
