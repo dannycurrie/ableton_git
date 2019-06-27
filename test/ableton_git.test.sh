@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 # create folder and .als file
 cd test
