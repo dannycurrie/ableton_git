@@ -4,8 +4,6 @@
 
 # global vars
 
-# blahhh
-
 function checkFileValid() {
   if [ ! -f "$1.als" ]; then
     echo "$1 is not a valid Ableton project file"
